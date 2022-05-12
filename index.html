@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <h1 id="res" style="text-align: center;">Hi..</h1>
+    <div class="container">
+        <form action="">
+            <tr id="row1">
+                <td colspan="2"><input type="text" name="calci" id="in_put1"></td>
+                <td colspan="2"><input type="text" name="calci" id="in_put2"></td>
+            </tr>           
+            <tr>
+                <td><input type="button" value="mrc" onclick="clr()" class="btn_no"></td>
+                <td><input type="button" value="m-" class="btn_no"></td>
+                <td><input type="button" value="m+" class="btn_no"></td>
+                <td><input type="button" value="/" onclick="div()" class="btn_no" style="background-color: rgb(230, 55, 55);"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="but7()" id="num7" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="8" onclick="but8()" id="num8" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="9" onclick="but9()" id="num9" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="*" onclick="mul()" id="v*" class="btn_no1" style="background-color: rgb(230, 55, 55);"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="but4()" id="num4" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="5" onclick="but5()" id="num5" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="6" onclick="but6()" id="num6" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="-" onclick="sub()" id="v-" class="btn_no1" style="background-color: rgb(230, 55, 55);"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="but1()" id="num1" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="2" onclick="but2()" id="num2" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="3" onclick="but3()" id="num3" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="+" onclick="add()" id="v+" class="btn_no1" style="background-color: rgb(230, 55, 55);"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="but0()" id="num0" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="." id="v." class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="C" id="vC" class="btn_no1" style="background-color: white;"></td>
+                <td><input type="button" value="=" id="v=" class="btn_no1" style="background-color: white;"></td>
+            </tr>
+        </form>
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
